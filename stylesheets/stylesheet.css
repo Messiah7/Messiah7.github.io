@@ -260,17 +260,6 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.outer {
-  width: 100%;
-}
-
-.inner {
-  position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
-  margin: 0 auto;
-}
-
 #forkme_banner {
   display: block;
   position: absolute;
@@ -364,10 +353,6 @@ Full-Width Styles
   padding-top: 40px;
 }
 
-#footer_wrap {
-  background: #212121;
-}
-
 #footer {
  margin: 20px auto 0;
  width: 50%;
@@ -435,6 +420,15 @@ Full-Width Styles
  vertical-align: middle !important;
 }
 
+#ctrf {
+ box-shadow: inset 0 0 15px rgba(0,0,0,0.4), 0 7px 20px rgba(0,0,0,0.4);
+ height: 400px;
+ margin: 0 auto 10px;
+ padding: 0.5%;
+ width: 60%;
+ display:table;
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -446,11 +440,6 @@ Small Device Styles
 
   #downloads {
     display: none;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
   }
 
   #project_title {
