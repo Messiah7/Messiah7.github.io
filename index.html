@@ -70,7 +70,13 @@
       <script src="/firefly/jquery.firefly.js"></script>
       <script>
       $(document).ready(function() {
-    	$.firefly(); 	
+    	$.firefly({
+	color: '#fff',
+	minPixel: 1,
+	maxPixel: 3,
+	total : 65,
+	on: 'header'
+}); 	
       });
       </script>
 
