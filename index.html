@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--
 <script>
       // start particle simulation
 simulate(
@@ -800,7 +801,8 @@ function simulate(dimensions, options) {
 
 };
       //@ sourceURL=pen.js
-    </script>
+</script>
+-->
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -878,13 +880,13 @@ $(document).ready(function() {
 <script src="https://raw.githubusercontent.com/motyar/firefly/master/jquery.firefly-0.5.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-$.firefly({
+	$.firefly({
 	color: '#fff',
 	minPixel: 1,
 	maxPixel: 3,
-	total : 65,
-	on: 'header_wrap'
-});
+	total : 165,
+	on: '#main_content_wrap'
+      });	
 });
 </script>
   </body>
