@@ -80,4 +80,4 @@
 .da-userPopout .da-avatarWrapper:active, .da-userPopout .da-avatarWrapper:hover {box-shadow: none}
 #app-mount .da-userPopout .da-avatarHint {border-radius:0}
 .da-userPopout .da-maskProfile{mask:none;-webkit-mask:none}
-.da-userPopout .header-2BwW8b .creationDate {text-shadow: 1px 1px 1px #000;color:var(--color)}
+.da-userPopout .da-header .creationDate {text-shadow: 1px 1px 1px #000;color:var(--color)}
