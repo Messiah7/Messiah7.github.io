@@ -1,5 +1,5 @@
-.da-userPopout .da-headerTop {padding: 0}
-.da-userPopout {border-radius: var(--profileradius)}
+.da-userPopout .da-headerTop {padding: 0 !important;}
+.da-userPopout {border-radius: var(--profileradius) !important;}
 .da-userPopout .da-avatarWrapper,
 .da-userPopout .da-wrapper,
 #app-mount .da-userPopout .da-avatarWrapper .da-image {
@@ -12,72 +12,72 @@
     display: flex !important;
     flex: 1 !important;
     background-size: 250px 250px !important;
-    border-radius: 0 !important !important;
+    border-radius: 0 !important;
     background-position: 0 !important;
     background-repeat: no-repeat !important;
     position: relative !important;
     -webkit-mask: none !important;
     mask: none !important;
-    }
+     !important;}
 .da-userPopout .da-header:hover .da-avatarWrapper {filter: grayscale(14%) !important;transition: filter 500ms ease-out !important;}
-.da-userPopout .da-header {height: 250px !important;transition: filter 100ms !important;background: none !important;border: none !important;color: transparent !important;z-index: 2 !important;padding: 0}
+.da-userPopout .da-header {height: 250px !important;transition: filter 100ms !important;background: none !important;border: none !important;color: transparent !important;z-index: 2 !important;padding: 0 !important;}
 .da-userPopout .da-avatarWrapper.no-hover {min-height: 250px !important;top: 9px !important;}
-.da-userPopout .da-headerPlaying {height: 350px !important;background-color: #2f3136}
+.da-userPopout .da-headerPlaying {height: 350px !important;background-color: #2f3136 !important;}
 .da-userPopout .da-header:hover .da-headerText {
-    width: 200px !important;margin-top: -180px !important;border-radius: 10px !important;position: absolute !important;top: 342px !important;transition: top 170ms ease-out}
+    width: 200px !important;margin-top: -180px !important;border-radius: 10px !important;position: absolute !important;top: 342px !important;transition: top 170ms ease-out !important;}
 .da-userPopout .da-headerText {
     width: 200px !important;top: 180px !important;
     position: absolute !important;
-    transition: top 270ms ease-in-out !important;z-index: 0}
-.da-userPopout .da-headerStreaming .da-headerLive:hover {background-color: transparent}
+    transition: top 270ms ease-in-out !important;z-index: 0 !important;}
+.da-userPopout .da-headerStreaming .da-headerLive:hover {background-color: transparent !important;}
 .da-userPopout .da-header:hover .da-avatarWrapper .da-avatarHint {
     background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%) !important;
-    border-radius: 0 !important;transition: opacity 300ms ease-in 80ms !important;opacity: 1}
+    border-radius: 0 !important;transition: opacity 300ms ease-in 80ms !important;opacity: 1 !important;}
 .da-userPopout .da-avatarWrapper .da-avatarHint {
     background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%) !important;
     box-shadow: none !important;opacity: 0 !important;
     border-radius: 0 !important;transition: opacity 180ms ease-out 100ms !important;
-    -webkit-mask: none !important;mask: none}
+    -webkit-mask: none !important;mask: none !important;}
 .da-userPopout :-webkit-any(.da-nameTag, .da-headerActivityText, .da-headerTag,.da-headerName),.da-userPopout .creationDate {
     background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0) 100%) !important;
     width: 200px !important;max-width: 200px !important;padding: 0  !important;
-    overflow:hidden !important;white-space: nowrap}
-.da-userPopout .da-headerText .da-nameTag {margin-bottom: 4px}
-.da-userPopout .da-headerText .da-headerActivityText {height: 0px !important;overflow: hidden !important;word-break: break-all !important;margin: 0}
-.da-userPopout .da-header:hover .da-headerText .da-headerActivityText {height: auto !important;max-height: 35px}
+    overflow:hidden !important;white-space: nowrap !important;}
+.da-userPopout .da-headerText .da-nameTag {margin-bottom: 4px !important;}
+.da-userPopout .da-headerText .da-headerActivityText {height: 0px !important;overflow: hidden !important;word-break: break-all !important;margin: 0 !important;}
+.da-userPopout .da-header:hover .da-headerText .da-headerActivityText {height: auto !important;max-height: 35px !important;}
 #app-mount .da-userPopout .da-avatarWrapper .da-statusProfile {
     bottom: -8px !important;width: 250px !important;height: 8px !important;left: 0 !important;
-    box-shadow: inset 0 0 0 1.8px rgba(255,255,255,.2) !important !important;
-    border-radius: 0 !important;z-index: 4 !important;border: none}
-#app-mount .da-userPopout .da-statusProfile.da-online {background-color: #43b581}
-#app-mount .da-userPopout .da-statusProfile.da-streaming {background-color: #593695}
-#app-mount .da-userPopout .da-statusProfile.da-dnd {background-color: #f04747}
-#app-mount .da-userPopout .da-statusProfile.da-idle {background-color: #faa61a}
-#app-mount .da-userPopout .da-statusProfile.da-invisible {background-color: #1a36fa}
-#app-mount .da-userPopout .da-statusProfile.da-offline {background-color: #747f8d}
-.da-userPopout .da-header:hover .da-avatarWrapper .da-statusProfile {filter: contrast(105%) !important;transition: filter 480ms ease-out}
-.da-userPopout .da-body .da-bodyTitleText {margin-top: 10px !important;margin-bottom: 4px}
+    box-shadow: inset 0 0 0 1.8px rgba(255,255,255,.2) !important;
+    border-radius: 0 !important;z-index: 4 !important;border: none !important;}
+#app-mount .da-userPopout .da-statusProfile.da-online {background-color: #43b581 !important;}
+#app-mount .da-userPopout .da-statusProfile.da-streaming {background-color: #593695 !important;}
+#app-mount .da-userPopout .da-statusProfile.da-dnd {background-color: #f04747 !important;}
+#app-mount .da-userPopout .da-statusProfile.da-idle {background-color: #faa61a !important;}
+#app-mount .da-userPopout .da-statusProfile.da-invisible {background-color: #1a36fa !important;}
+#app-mount .da-userPopout .da-statusProfile.da-offline {background-color: #747f8d !important;}
+.da-userPopout .da-header:hover .da-avatarWrapper .da-statusProfile {filter: contrast(105%) !important;transition: filter 480ms ease-out !important;}
+.da-userPopout .da-body .da-bodyTitleText {margin-top: 10px !important;margin-bottom: 4px !important;}
 .da-userPopout .da-headerText .da-nameTag,.da-userPopout  .da-headerName,
-.da-userPopout .da-headerTagUsernameNoNickname {color: var(--color)}
+.da-userPopout .da-headerTagUsernameNoNickname {color: var(--color) !important;}
 .da-userPopout .da-headerText .da-nameTag,
 .da-userPopout .da-headerText .da-headerTag,
 .da-userPopout .da-header:hover .da-headerText .da-headerActivityText,
 .da-userPopout .da-header:hover .creationDate {
     opacity: 1 !important;overflow: hidden !important;transition: opacity 200ms ease-in !important;
-    transition-delay: 170ms !important;text-align: center}
+    transition-delay: 170ms !important;text-align: center !important;}
 .da-userPopout .da-headerText .da-headerActivityText,
 .da-userPopout .da-headerStreaming .da-headerLive {
     position: fixed !important;top: 20px !important;left: 34px !important;
     border-top: none !important;border-bottom: 1px solid rgba(255,255,255,.08) !important;
     background: linear-gradient(to right, rgba(250,250,250,0) 0%,rgba(250,250,250,0.05) 15%,rgba(250,250,250,0.05) 85%,rgba(250,250,250,0) 100%) !important;
-    padding: 4px 25px !important;width: auto}
+    padding: 4px 25px !important;width: auto !important;}
 .da-userPopout .da-headerStreaming {padding-bottom: 6px !important;}
-.da-userPopout .da-headerStreaming .da-avatarStatus {bottom: -6px}
-.da-userPopout .da-headerStreaming .da-avatar {padding-bottom: 4px !important;top: -2px}
-.da-userPopout .da-body {z-index: 1 !important;padding-top: 14px}
-.da-userPopout .da-footer {z-index: 1}
-.da-userPopout .da-avatarWrapper .da-avatar::after {transform: scale(1) !important;border-radius: 0}
-.da-userPopout .da-avatarWrapper:active, .da-userPopout .da-avatarWrapper:hover {box-shadow: none}
-#app-mount .da-userPopout .da-avatarHint {border-radius:0}
-.da-userPopout .da-maskProfile{mask:none !important;-webkit-mask:none}
-.da-userPopout .da-header .creationDate {text-shadow: 1px 1px 1px #000 !important;color:var(--color)}
+.da-userPopout .da-headerStreaming .da-avatarStatus {bottom: -6px !important;}
+.da-userPopout .da-headerStreaming .da-avatar {padding-bottom: 4px !important;top: -2px !important;}
+.da-userPopout .da-body {z-index: 1 !important;padding-top: 14px !important;}
+.da-userPopout .da-footer {z-index: 1 !important;}
+.da-userPopout .da-avatarWrapper .da-avatar::after {transform: scale(1) !important;border-radius: 0 !important;}
+.da-userPopout .da-avatarWrapper:active, .da-userPopout .da-avatarWrapper:hover {box-shadow: none !important;}
+#app-mount .da-userPopout .da-avatarHint {border-radius:0 !important;}
+.da-userPopout .da-maskProfile{mask:none !important;-webkit-mask:none !important;}
+.da-userPopout .da-header .creationDate {text-shadow: 1px 1px 1px #000 !important;color:var(--color) !important;}
