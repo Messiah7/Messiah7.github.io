@@ -45,5 +45,5 @@
     background-size: 100%;
 }
 .da-titleText .da-channelName {
-    padding-right: 5px;
+    padding-right: 5px !important;
 }
