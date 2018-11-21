@@ -44,3 +44,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.da-titleText .da-channelName {
+    padding-right: 5px;
+}
