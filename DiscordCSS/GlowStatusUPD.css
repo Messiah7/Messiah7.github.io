@@ -50,7 +50,7 @@
 #app-mount .da-status.da-animate {transition:none;}
 @keyframes typing { 50% {opacity: .4;}
 .da-titleText {overflow: visible;}
-.da-channelName {overflow: visible !important;}
+.da-channelName {overflow: visible;}
 
 #app-mount .da-menu.da-alt .da-online,
 #app-mount .da-headerBar .da-online {background-color: var(--online);}
