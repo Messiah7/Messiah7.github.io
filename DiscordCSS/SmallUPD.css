@@ -45,7 +45,7 @@
     background-size: 100%;
 }
 
-.da-guildsWrapper{width: 120px;}
+.da-guildsWrapper{width: 120px !important;}
 .da-guildsWrapper .da-scrollerWrap{width: 135px;}
 .da-guildsWrapper .da-guilds {padding-bottom:35px;display: flex;flex-flow: row wrap; padding-left: 0;align-content: flex-start;}
 .da-guildsWrapper .da-guilds .da-guild {margin-left: 5px;margin-top: 5px;}
