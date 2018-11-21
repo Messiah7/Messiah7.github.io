@@ -1,12 +1,12 @@
-#app-mount .da-member {height:45px;}
-#app-mount .da-members .da-small {background-size: 37px;height: 37px;width: 37px;}
+#app-mount .da-member {height:45px}
+#app-mount .da-members .da-small {background-size: 37px;height: 37px;width: 37px}
 
 #app-mount .da-member:hover .da-content .da-status,
 #app-mount .da-member .da-content .da-status,
 #app-mount .da-privateChannels .da-channel .status,
-#app-mount .da-privateChannels .da-channel:hover .status {border-color: transparent;}
-#app-mount .da-status.da-small.da-typing.status {left:0;right:0;height: 100% !important;width: 100%!important;background-color: rgba(0, 0, 0, 0.4);animation: typing 1.5s linear infinite;}
-#app-mount .da-status.da-small.da-typing.da-status {left:0;right:0;height: 100% !important;width: 100%!important;background-color: rgba(0, 0, 0, 0.4);animation: typing 1.5s linear infinite;}
+#app-mount .da-privateChannels .da-channel:hover .status {border-color: transparent}
+#app-mount .da-status.da-small.da-typing.status {left:0;right:0;height: 100% !important;width: 100%!important;background-color: rgba(0, 0, 0, 0.4);animation: typing 1.5s linear infinite}
+#app-mount .da-status.da-small.da-typing.da-status {left:0;right:0;height: 100% !important;width: 100%!important;background-color: rgba(0, 0, 0, 0.4);animation: typing 1.5s linear infinite}
 
 #app-mount .da-statusProfile.da-status,
 #app-mount .da-listRow .da-status, 
@@ -18,49 +18,48 @@
 #app-mount .da-members .da-member.popout-open .da-status,
 #app-mount .da-container .da-status,.da-friend .status {
     width:100%;height: 100%;right: 0;bottom:0
-;}
+}
 #friends .friends-table .friends-row .avatar-large, 
-#friends .friends-table .friends-row .avatar-small{left:3px;width:40px;height:40px;background-size:40px;}
-#friends .friends-table .friends-row .friends-column-status .status {right:235px;bottom: 0;height: 40px;width: 40px;}
-#friends .friends-table .friends-column-name {padding-left:4px;}
-@media (max-width:1300px){#friends .friends-table .friends-column-name{width:200px !important;}}
-@media (max-width:1300px) {#friends .friends-table .friends-column-guilds{display:inline-flex !important;}}
+#friends .friends-table .friends-row .avatar-small{left:3px;width:40px;height:40px;background-size:40px}
+#friends .friends-table .friends-row .friends-column-status .status {right:235px;bottom: 0;height: 40px;width: 40px}
+#friends .friends-table .friends-column-name {padding-left:4px}
+@media (max-width:1300px){#friends .friends-table .friends-column-name{width:200px !important}}
+@media (max-width:1300px) {#friends .friends-table .friends-column-guilds{display:inline-flex !important}}
 
-#app-mount .da-online {background-color: transparent;box-shadow:0 0 var(--sglow) var(--online) !important;}
-#app-mount .da-streaming {background-color: transparent;box-shadow:0 0 var(--sglow) var(--stream) !important;}
-#app-mount .da-dnd {background-color: transparent;box-shadow:0 0 var(--sglow) var(--dnd) !important;}
-#app-mount .da-idle {background-color: transparent;box-shadow:0 0 var(--sglow) var(--idle) !important;}
-#app-mount .da-invisible{background-color: transparent;box-shadow:0 0 var(--sglow) var(--invis) !important;}
+#app-mount .da-online {background-color: transparent;box-shadow:0 0 var(--sglow) var(--online) !important}
+#app-mount .da-streaming {background-color: transparent;box-shadow:0 0 var(--sglow) var(--stream) !important}
+#app-mount .da-dnd {background-color: transparent;box-shadow:0 0 var(--sglow) var(--dnd) !important}
+#app-mount .da-idle {background-color: transparent;box-shadow:0 0 var(--sglow) var(--idle) !important}
+#app-mount .da-invisible{background-color: transparent;box-shadow:0 0 var(--sglow) var(--invis) !important}
 #app-mount .da-offline,
-#app-mount .da-unknown {background-color: transparent;box-shadow:0 0 var(--sglow) var(--offline) !important;}
+#app-mount .da-unknown {background-color: transparent;box-shadow:0 0 var(--sglow) var(--offline) !important}
 
-#app-mount .da-maskProfile,#app-mount .da-mask {-webkit-mask: none;mask: none;}
+#app-mount .da-maskProfile,#app-mount .da-mask {-webkit-mask: none;mask: none}
 #app-mount .status,#app-mount .da-status,
 #app-mount .avatar-small,#app-mount .da-image,
 #app-mount .da-wrapper,#app-mount .da-status,
 #app-mount .da-statusProfile {border-radius:var(--round);box-shadow:none;-webkit-box-shadow:none;}
 #app-mount .da-title .da-status,
 #app-mount .friends-column-status .status,
-#app-mount .da-titleCall .da-status {position:relative;}
+#app-mount .da-titleCall .da-status {position:relative}
 
-#app-mount .da-container .da-status,#app-mount .da-statusProfile.da-status {pointer-events: none;}
-#app-mount .da-pulsingEllipsisItem {opacity: .9;} 
-#app-mount .da-pulsingEllipsis {left:5px;}
-#app-mount .status,#app-mount .da-status{border:none;}
-#app-mount .da-status.da-animate {transition:none;}
-@keyframes typing { 50% {opacity: .4;}
-.da-titleText {overflow: visible;}
-.da-titleText .da-channelName {overflow: visible;}
+#app-mount .da-container .da-status,#app-mount .da-statusProfile.da-status {pointer-events: none}
+#app-mount .da-pulsingEllipsisItem {opacity: .9} 
+#app-mount .da-pulsingEllipsis {left:5px}
+#app-mount .status,#app-mount .da-status{border:none}
+#app-mount .da-status.da-animate {transition:none }
+@keyframes typing { 50% {opacity: .4}}
+.da-titleText {overflow: visible}
 
 #app-mount .da-menu.da-alt .da-online,
-#app-mount .da-headerBar .da-online {background-color: var(--online);}
+#app-mount .da-headerBar .da-online {background-color: var(--online)}
 #app-mount .da-menu.da-alt .da-streaming,
-#app-mount .da-headerBar .da-streaming {background-color: var(--stream);}
+#app-mount .da-headerBar .da-streaming {background-color: var(--stream)}
 #app-mount .da-menu.da-alt .da-dnd,
-#app-mount .da-headerBar .da-dnd {background-color: var(--dnd);}
+#app-mount .da-headerBar .da-dnd {background-color: var(--dnd)}
 #app-mount .da-menu.da-alt .da-idle,
-#app-mount .da-headerBar .da-idle {background-color: var(--idle);}
+#app-mount .da-headerBar .da-idle {background-color: var(--idle)}
 #app-mount .da-menu.da-alt .da-invisible,
-#app-mount .da-headerBar .da-invisible {background-color: var(--invis);}
+#app-mount .da-headerBar .da-invisible {background-color: var(--invis)}
 #app-mount .da-menu.da-alt .da-offline,#app-mount .da-headerBar .da-offline,
-#app-mount .da-menu.da-alt .da-unknown {background-color: var(--offline);}
+#app-mount .da-menu.da-alt .da-unknown {background-color: var(--offline)}
