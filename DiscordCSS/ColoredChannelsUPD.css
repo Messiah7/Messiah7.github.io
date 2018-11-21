@@ -1,0 +1,65 @@
+/* container-0 */
+.container-0 .da-nameDefault, .container-0 .da-nameUnreadText, .container-0 .da-nameDefaultVoice, .container-0 .da-nameConnectedVoice, .container-0 .da-nameHovered, .container-0 .da-nameHoveredCollapsed {color: #b9e06c;}
+.container-0 .da-nameDefaultText, .container-0 .da-nameCollapsed {color: #84a63f;}
+.container-0 .da-nameMutedText, .container-0 .da-nameLockedVoice {color: #546336;}
+.container-0 .da-contentSelectedText, .container-0 .da-contentHoveredText {background-color: rgba(185, 224, 108, 0.4);}
+/* container-1 */
+.container-1 .da-nameDefault, .container-1 .da-nameUnreadText, .container-1 .da-nameDefaultVoice, .container-1 .da-nameConnectedVoice, .container-1 .da-nameHovered, .container-1 .da-nameHoveredCollapsed {color: #6ce092;}
+.container-1 .da-nameDefaultText, .container-1 .da-nameCollapsed {color: #3fa662;}
+.container-1 .da-nameMutedText, .container-1 .da-nameLockedVoice {color: #366345;}
+.container-1 .da-contentSelectedText, .container-1 .da-contentHoveredText {background-color: rgba(108, 224, 146, 0.4);}
+/* container-2 */
+.container-2 .da-nameDefault, .container-2 .da-nameUnreadText, .container-2 .da-nameDefaultVoice, .container-2 .da-nameConnectedVoice, .container-2 .da-nameHovered, .container-2 .da-nameHoveredCollapsed {color: #6cb9e0;}
+.container-2 .da-nameDefaultText, .container-2 .da-nameCollapsed {color: #3e90b8;}
+.container-2 .da-nameMutedText, .container-2 .da-nameLockedVoice {color: #336178;}
+.container-2 .da-contentSelectedText, .container-2 .da-contentHoveredText {background-color: rgba(108, 185, 224, 0.4);}
+/* container-3 */
+.container-3 .da-nameDefault, .container-3 .da-nameUnreadText, .container-3 .da-nameDefaultVoice, .container-3 .da-nameConnectedVoice, .container-3 .da-nameHovered, .container-3 .da-nameHoveredCollapsed {color: #926ce0;}
+.container-3 .da-nameDefaultText, .container-3 .da-nameCollapsed {color: #623fa6;}
+.container-3 .da-nameMutedText, .container-3 .da-nameLockedVoice {color: #453663;}
+.container-3 .da-contentSelectedText, .container-3 .da-contentHoveredText {background-color: rgba(146, 108, 224, 0.4);}
+/* container-4 */
+.container-4 .da-nameDefault, .container-4 .da-nameUnreadText, .container-4 .da-nameDefaultVoice, .container-4 .da-nameConnectedVoice, .container-4 .da-nameHovered, .container-4 .da-nameHoveredCollapsed {color: #e2df6e;}
+.container-4 .da-nameDefaultText, .container-4 .da-nameCollapsed {color: #b8ba3f;}
+.container-4 .da-nameMutedText, .container-4 .da-nameLockedVoice {color: #787934;}
+.container-4 .da-contentSelectedText, .container-4 .da-contentHoveredText {background-color: rgba(227, 225, 111, 0.4);}
+/* container-5 */
+.container-5 .da-nameDefault, .container-5 .da-nameUnreadText, .container-5 .da-nameDefaultVoice, .container-5 .da-nameConnectedVoice, .container-5 .da-nameHovered, .container-5 .da-nameHoveredCollapsed {color: #e0926c;}
+.container-5 .da-nameDefaultText, .container-5 .da-nameCollapsed {color: #a6623f;}
+.container-5 .da-nameMutedText, .container-5 .da-nameLockedVoice {color: #634536;}
+.container-5 .da-contentSelectedText, .container-5 .da-contentHoveredText {background-color: rgba(224, 146, 108, 0.4);}
+/* container-6 */
+.container-6 .da-nameDefault, .container-6 .da-nameUnreadText, .container-6 .da-nameDefaultVoice, .container-6 .da-nameConnectedVoice, .container-6 .da-nameHovered, .container-6 .da-nameHoveredCollapsed {color: #b9e06c;}
+.container-6 .da-nameDefaultText, .container-6 .da-nameCollapsed {color: #84a63f;}
+.container-6 .da-nameMutedText, .container-6 .da-nameLockedVoice {color: #546336;}
+.container-6 .da-contentSelectedText, .container-6 .da-contentHoveredText {background-color: rgba(185, 224, 108, 0.4);}
+/* container-7 */
+.container-7 .da-nameDefault, .container-7 .da-nameUnreadText, .container-7 .da-nameDefaultVoice, .container-7 .da-nameConnectedVoice, .container-7 .da-nameHovered, .container-7 .da-nameHoveredCollapsed {color: #6ce092;}
+.container-7 .da-nameDefaultText, .container-7 .da-nameCollapsed {color: #3fa662;}
+.container-7 .da-nameMutedText, .container-7 .da-nameLockedVoice {color: #366345;}
+.container-7 .da-contentSelectedText, .container-7 .da-contentHoveredText {background-color: rgba(108, 224, 146, 0.4);}
+/* container-8 */
+.container-8 .da-nameDefault, .container-8 .da-nameUnreadText, .container-8 .da-nameDefaultVoice, .container-8 .da-nameConnectedVoice, .container-8 .da-nameHovered, .container-8 .da-nameHoveredCollapsed {color: #6cb9e0;}
+.container-8 .da-nameDefaultText, .container-8 .da-nameCollapsed {color: #3e90b8;}
+.container-8 .da-nameMutedText, .container-8 .da-nameLockedVoice {color: #336178;}
+.container-8 .da-contentSelectedText, .container-8 .da-contentHoveredText {background-color: rgba(108, 185, 224, 0.4);}
+/* container-9 */
+.container-9 .da-nameDefault, .container-9 .da-nameUnreadText, .container-9 .da-nameDefaultVoice, .container-9 .da-nameConnectedVoice, .container-9 .da-nameHovered, .container-9 .da-nameHoveredCollapsed {color: #926ce0;}
+.container-9 .da-nameDefaultText, .container-9 .da-nameCollapsed {color: #623fa6;}
+.container-9 .da-nameMutedText, .container-9 .da-nameLockedVoice {color: #453663;}
+.container-9 .da-contentSelectedText, .container-9 .da-contentHoveredText {background-color: rgba(146, 108, 224, 0.4);}
+/* container-10 */
+.container-10 .da-nameDefault, .container-10 .da-nameUnreadText, .container-10 .da-nameDefaultVoice, .container-10 .da-nameConnectedVoice, .container-10 .da-nameHovered, .container-10 .da-nameHoveredCollapsed {color: #e2df6e;}
+.container-10 .da-nameDefaultText, .container-10 .da-nameCollapsed {color: #b8ba3f;}
+.container-10 .da-nameMutedText, .container-10 .da-nameLockedVoice {color: #787934;}
+.container-10 .da-contentSelectedText, .container-10 .da-contentHoveredText {background-color: rgba(227, 225, 111, 0.4);}
+/* container-11 */
+.container-11 .da-nameDefault, .container-11 .da-nameUnreadText, .container-11 .da-nameDefaultVoice, .container-11 .da-nameConnectedVoice, .container-11 .da-nameHovered, .container-11 .da-nameHoveredCollapsed {color: #e0926c;}
+.container-11 .da-nameDefaultText, .container-11 .da-nameCollapsed {color: #a6623f;}
+.container-11 .da-nameMutedText, .container-11 .da-nameLockedVoice {color: #634536;}
+.container-11 .da-contentSelectedText, .container-11 .da-contentHoveredText {background-color: rgba(224, 146, 108, 0.4);}
+/* container-12 */
+.container-12 .da-nameDefault, .container-12 .da-nameUnreadText, .container-12 .da-nameDefaultVoice, .container-12 .da-nameConnectedVoice, .container-12 .da-nameHovered, .container-12 .da-nameHoveredCollapsed {color: #b9e06c;}
+.container-12 .da-nameDefaultText, .container-12 .da-nameCollapsed {color: #84a63f;}
+.container-12 .da-nameMutedText, .container-12 .da-nameLockedVoice {color: #546336;}
+.container-12 .da-contentSelectedText, .container-12 .da-contentHoveredText {background-color: rgba(185, 224, 108, 0.4);}
