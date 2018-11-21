@@ -49,7 +49,8 @@
 #app-mount .status,#app-mount .da-status{border:none;}
 #app-mount .da-status.da-animate {transition:none;}
 @keyframes typing { 50% {opacity: .4;}
-#app-mount .da-titleText {overflow: visible;}
+.da-titleText {overflow: visible;}
+.da-titleText .da-channelName {overflow: visible;}
 
 #app-mount .da-menu.da-alt .da-online,
 #app-mount .da-headerBar .da-online {background-color: var(--online);}
