@@ -1,0 +1,46 @@
+.da-messageCozy .da-avatar .da-large {
+    box-shadow: 0 0 0 2px rgba(145, 145, 145, 0.25) !important;
+}
+.da-containerCozy .da-divider  {
+    border-bottom-color: rgba(145, 145, 145, 0.25) !important;
+}
+.da-membersWrap {
+    min-width: 280px !important;
+}
+.da-members {
+    max-width: 280px !important;
+}
+.da-memberInner {
+    width: 210px !important;
+}
+.da-membersGroup {
+    font-weight: bold !important;
+    text-shadow:
+    0 0 4px rgb(0,0,0),
+    0 0 4px rgb(0,0,0),
+    0 0 16px rgb(255, 255, 255) !important;
+    overflow: visible !important;
+}
+.da-timestampCozy {
+    color: rgba(145, 145, 145, 0.75) !important;
+}
+.da-avatarDefault{
+    border-radius: 2px !important;
+    box-shadow: 0 0 0 2px rgba(145, 145, 145, 0.25) !important;
+}
+.da-avatarSpeaking{
+    border-radius: 2px !important;
+    box-shadow: 0 0 0 2px rgba(145, 145, 145, 0.25) !important;
+}
+.da-avatarSpeaking:after {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 2px;
+    left: -18px;
+    background-image: url(https://github.com/Messiah7/Messiah7.github.io/raw/master/DiscordIMG/voiceicon_loud_png.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
