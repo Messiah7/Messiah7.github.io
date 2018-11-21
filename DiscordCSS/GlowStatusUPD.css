@@ -23,8 +23,8 @@
 #friends .friends-table .friends-row .avatar-small{left:3px;width:40px;height:40px;background-size:40px;}
 #friends .friends-table .friends-row .friends-column-status .status {right:235px;bottom: 0;height: 40px;width: 40px;}
 #friends .friends-table .friends-column-name {padding-left:4px;}
-@media (max-width:1300px){#friends .friends-table .friends-column-name{width:200px !important;}
-@media (max-width:1300px) {#friends .friends-table .friends-column-guilds{display:inline-flex !important;}
+@media (max-width:1300px){#friends .friends-table .friends-column-name{width:200px !important;}}
+@media (max-width:1300px) {#friends .friends-table .friends-column-guilds{display:inline-flex !important;}}
 
 #app-mount .da-online {background-color: transparent;box-shadow:0 0 var(--sglow) var(--online) !important;}
 #app-mount .da-streaming {background-color: transparent;box-shadow:0 0 var(--sglow) var(--stream) !important;}
@@ -50,6 +50,7 @@
 #app-mount .da-status.da-animate {transition:none;}
 @keyframes typing { 50% {opacity: .4;}
 .da-titleText {overflow: visible;}
+.da-titleText .da-channelName {overflow: visible;}
 
 #app-mount .da-menu.da-alt .da-online,
 #app-mount .da-headerBar .da-online {background-color: var(--online);}
