@@ -1,0 +1,14 @@
+.da-guildsWrapper{width: 120px}
+.da-guildsWrapper .da-scrollerWrap{width: 135px}
+.da-guildsWrapper .da-guilds {padding-bottom:35px;display: flex;flex-flow: row wrap; padding-left: 0;align-content: flex-start}
+.da-guildsWrapper .da-guilds .da-guild {margin-left: 5px;margin-top: 5px;}
+.da-guildsWrapper .da-guilds .da-guild.da-unread::before {left: -2px;top: 5px;z-index:9000}
+.da-guildsWrapper .da-guilds .da-guild:first-child {position: relative;left:30px;top:-5px}
+.da-guildsWrapper .da-guilds .da-guildSeparator {position: relative;width: 100%}
+.da-guildsWrapper .da-guilds .da-friendsOnline {position: relative;margin: auto;top:25px}
+.da-guildsWrapper .da-guilds .da-guildSeparator:after,
+.da-guildsWrapper .da-guilds .da-guild.da-selected:before {visibility: hidden}
+.da-guildsWrapper .da-guilds .da-dms {width: 100%;display: flex;flex-flow: row wrap}
+.da-guildsWrapper .da-guilds .da-dms .da-guild {top:15px;left:0;}
+#bd-pub-li {position: relative;left: -25px;top:50px}
+#RANbutton-frame {left:30px;top:15px}
